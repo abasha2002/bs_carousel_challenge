@@ -25,6 +25,9 @@
         left: 50% !important;
         transform: translateX(-50%);
     }
+    img{
+        border-radius: 0 !important;
+    }
 }
 
 body{
