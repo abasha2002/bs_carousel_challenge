@@ -20,6 +20,10 @@
     .arrow{
         display: none !important;
     }
+    .dots{
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 body{
