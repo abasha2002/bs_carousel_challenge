@@ -33,7 +33,7 @@ body{
 .second{
     font-family: 'Kanit';
     font-size: 50px;
-    background: linear-gradient(to right, cyan, rgb(14, 141, 245));
+    background: linear-gradient(to right, cyan, rgb(2, 2, 226));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -53,8 +53,10 @@ img{
     border-radius: 20px;
     width: 100%;
 }
+
 .button{
-    background: linear-gradient(to top, darkgrey, lightgrey);
+    background-color: grey;
+    opacity: .5;
     border: 2px solid white;
     border-radius: 20px;
     padding: 10px 20px;
@@ -66,14 +68,14 @@ img{
 }
 
 .circle{
-    width: 10px !important;
-    height: 10px !important;
+    width: 15px !important;
+    height: 15px !important;
     border-radius: 50%;
     margin-top: 100px !important;
 }
 
 .dots{
-    left: 48.2%;
+    left: 47.7%;
     display: inline;
     margin: 0;
     width: fit-content;
@@ -102,5 +104,5 @@ span{
     display: flex !important;
     justify-content: center;
     margin-top: 30px;
-    gap: 70px;
+    gap: 90px;
 }
