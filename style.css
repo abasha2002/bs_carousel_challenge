@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url(./fonts/Kanit-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 55px !important;
+    }
+    p{
+        font-size: 30px !important;
+    }
+    .image{
+        width: 100% !important;
+    }
+    .arrow{
+        display: none !important;
+    }
+}
+
+body{
+    background-color: rgb(0, 0, 22);
+}
+.first{
+    font-family: 'Kanit';
+    color: white;
+    font-size: 50px;
+}
+.second{
+    font-family: 'Kanit';
+    font-size: 50px;
+    background: linear-gradient(to right, cyan, rgb(14, 141, 245));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+p{
+    font-family: 'Kanit';
+    font-size: 30px;
+    color: grey;
+}
+
+.image{
+    width: 25%;
+}
+img{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+    width: 100%;
+}
+.button{
+    background: linear-gradient(to top, darkgrey, lightgrey);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: white;
+    font-family: 'Kanit';
+}
+
+.circle{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    margin-top: 100px !important;
+}
+
+.dots{
+    left: 48.2%;
+    display: inline;
+    margin: 0;
+    width: fit-content;
+}
+.arrow{
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid white;
+}
+.arrow:hover{
+    cursor: pointer;
+    background-color: beige;
+}
+span{
+    width: 20px !important;
+    height: 20px !important;
+}
+.slide_arrows{
+    display: flex !important;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 70px;
+}
