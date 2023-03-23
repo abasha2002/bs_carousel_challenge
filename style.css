@@ -30,6 +30,9 @@
 body{
     background-color: rgb(0, 0, 22);
 }
+.section2{
+    padding: 0;
+}
 .first{
     font-family: 'Kanit';
     color: white;
