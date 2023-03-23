@@ -21,7 +21,8 @@
         display: none !important;
     }
     .dots{
-        left: 50%;
+        margin-bottom: -20px !important;
+        left: 50% !important;
         transform: translateX(-50%);
     }
 }
